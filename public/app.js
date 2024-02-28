@@ -1,5 +1,5 @@
 
-const API_TUNES_URL = '/api/v1/tunes'
+const API_TUNES_URL = '/.netlify/functions/tunes'
 
 const main = () => {
   const synth = new Tone.Synth().toDestination()
